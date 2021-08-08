@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+    </style>
+</head>
+<body>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <span class="clock"></span>
+    <span class="date"></span>
+    <form class="login">
+        <input class="input_login" type="text" placeholder="Please enter your name">
+    </form>
+    <p class="print_userName hidden"></p>
+    <section class="todo_list">
+        <form class="todo_form">
+            <input type="text" class="input_todo" placeholder="Please enter To-Do-List" required>
+        </form>
+        <div class="list">
+            <ul class="todos"></ul>
+        </div>
+    </section>
+    <script src="./js/background.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/todolist.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/weather.js"></script>
+</body>
+</html>
